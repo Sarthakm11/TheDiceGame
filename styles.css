@@ -1,14 +1,3 @@
-.container {
-  text-align: center;
-  margin: auto;
-  width: 70%;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-}
-
 body {
   background-color: #393E46;
 }
@@ -40,10 +29,32 @@ footer {
   text-align: center;
   color: white;
 }
+
+.container {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
 .btn{
   font-family: 'Indie Flower', cursive;
   color: #4ECCA3;
   margin: 30px;
   /* background-color: #4ECCA3; */
   font-size: 2rem;
+}
+
+@media (maximum-width:768px) {
+body{
+  text-align: center;
+}
+.container{
+  margin: auto;
+  width:90%;
+}
 }
